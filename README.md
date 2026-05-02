@@ -1,6 +1,6 @@
 # pjournal — 个人日记终端应用
 
-> 一款基于 Python curses 的终端个人日记工具，支持写作提示、AI 提示词生成、Flomo 同步和 WebDAV 双向同步。
+> 一款基于 Python curses 的终端个人日记工具，支持写作提示、AI 提示词生成、Flomo 同步和 WebDAV 双向同步。这是基于https://github.com/shmimel/bee-write-back.git这个项目里面的journal这个软件的改版，我将其改成了中文版，并且添加了三种主要功能：将日记内容发送到flomo，并自动添加日记标签；调用deepseek的api，结合个人经历和爱好，让ai生成日记提示词；webdav同步功能。
 
 ![Python 3](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
